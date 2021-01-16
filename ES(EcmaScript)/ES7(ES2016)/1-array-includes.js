@@ -3,11 +3,11 @@
  * returning true or false as appropriate.
  */
 
-const fruits = ["turbo", "front", "part"]
+const names = ["turbo", "front", "part"]
 
 console.log({
-  turbo: fruits.includes("turbo"),
-  Turbo: fruits.includes("Turbo"),
-  part3: fruits.includes("part", 3),
-  partLastIndex: fruits.includes("part", -1),
+  turbo: names.includes("turbo"),
+  Turbo: names.includes("Turbo"),
+  part3: names.includes("part", 3),
+  partLastIndex: names.includes("part", -1),
 })
